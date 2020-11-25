@@ -4,14 +4,16 @@ Upload/Edit/Delete Files on Amazons S3
 Use your S3-Bucket as Concrete5 File Source.
 
 Require:
-- Concrete5 5.7
+- tested with concrete5 8.5.2 
 
 
 Usage:
+- Git clone to local or git clone to your server.
+- Run composer install
 - Install package
-- create new File Storage Location on /dashboard/system/files/storage
-- insert your S3 credentials
-- ready
+- Create new File Storage Location on /dashboard/system/files/storage
+- Insert your S3 credentials
+- Ready
 
 Optional:
 - show local path for you s3 stored files
