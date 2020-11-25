@@ -1,0 +1,15 @@
+{
+  "name": "amazon_s3_filemanager",
+  "version": "1.1.0",
+  "replace" : {
+    "league/flysystem": "*",
+    "guzzlehttp/guzzle" : "*",
+    "guzzlehttp/psr7": "*",
+    "guzzlehttp/promises": "*",
+    "psr/http-message": "~1.0",
+    "ralouphie/getallheaders": "^2.0.5"
+  },
+  "require": {
+    "league/flysystem-aws-s3-v3": "^1.0"
+  }
+}
