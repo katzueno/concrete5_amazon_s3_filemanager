@@ -10,8 +10,8 @@ defined('C5_EXECUTE') or die(_("Access Denied."));
 class Controller extends Package {
 
 	protected $pkgHandle = 'amazon_s3_filemanager';
-	protected $appVersionRequired = '5.7.0';
-	protected $pkgVersion = '0.2';
+	protected $appVersionRequired = '8.5.0';
+	protected $pkgVersion = '0.9';
 	protected $pkgEnableLegacyNamespace = true;
 	protected $regions = array(
 					"" 					=> "Default",
